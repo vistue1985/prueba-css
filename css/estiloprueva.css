@@ -1,0 +1,63 @@
+@font-face {
+	font-family: dancingscript;
+  src: url(../fuentes/dancingscript.ttf)
+
+}
+body {
+    font-family: DancingScript;
+    background-color: #02010a
+}
+img {
+    box-shadow: 2px 2px 0 #02010a;
+}
+.contenido {
+	margin: 0 auto;
+	max-width: 900px;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+  header {
+	  width: 100%;
+    background-color: #5b7989;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    padding: 10px 10px;
+    display: flex;
+    flex-flow: row wrap;
+    animation: slidein 2s;
+	}
+	header h1 {
+	    text-shadow: 2px 2px 0 #02010a;
+	    font-size: 2.0em;
+	}
+	header nav {
+	    font-size: 1.3em;
+	    margin-top: 40px;
+	}
+	header a {
+	    color: white;
+	}
+	.sin_deco{
+		text-decoration: none;
+	}
+
+	@media all and (min-width: 900px) {
+	    #contenido {
+	        width: 900px;
+	    }
+	    header h1 {
+	        width: 70%;
+	    }
+	    header nav {
+	        width: 30%;
+	    }
+			#index_secundaria div {
+	        width: 50%;
+	    }
+	    .galeria div {
+	        width: 31%;
+	    }
+	    footer div {
+	        width: 25%;
+	    }
